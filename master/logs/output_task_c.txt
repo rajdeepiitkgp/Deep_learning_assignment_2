@@ -1,0 +1,45 @@
+Training The Models...
+
+
+Fitting the model
+
+Epoch 0: train loss 0.562, train acc 80.111 %, val loss 0.503, val acc 82.477 %, in 15.4 sec
+Epoch 1: train loss 0.381, train acc 85.956 %, val loss 0.370, val acc 86.634 %, in 17.8 sec
+Epoch 2: train loss 0.334, train acc 87.633 %, val loss 0.403, val acc 84.599 %, in 20.1 sec
+Epoch 3: train loss 0.304, train acc 88.613 %, val loss 0.378, val acc 86.446 %, in 16.8 sec
+Epoch 4: train loss 0.283, train acc 89.474 %, val loss 0.373, val acc 86.700 %, in 15.9 sec
+Epoch 5: train loss 0.268, train acc 89.969 %, val loss 0.325, val acc 88.460 %, in 21.4 sec
+Epoch 6: train loss 0.255, train acc 90.412 %, val loss 0.314, val acc 88.628 %, in 17.1 sec
+Epoch 7: train loss 0.247, train acc 90.826 %, val loss 0.312, val acc 88.327 %, in 15.6 sec
+Epoch 8: train loss 0.230, train acc 91.338 %, val loss 0.330, val acc 88.390 %, in 15.9 sec
+Epoch 9: train loss 0.215, train acc 91.967 %, val loss 0.317, val acc 88.555 %, in 15.7 sec
+Epoch 10: train loss 0.208, train acc 92.232 %, val loss 0.318, val acc 89.006 %, in 15.6 sec
+Epoch 11: train loss 0.197, train acc 92.519 %, val loss 0.400, val acc 87.523 %, in 25.0 sec
+Epoch 12: train loss 0.197, train acc 92.661 %, val loss 0.335, val acc 88.505 %, in 33.6 sec
+Epoch 13: train loss 0.183, train acc 93.163 %, val loss 0.344, val acc 88.519 %, in 15.3 sec
+Epoch 14: train loss 0.183, train acc 93.040 %, val loss 0.342, val acc 88.735 %, in 14.9 sec
+Epoch 15: train loss 0.175, train acc 93.385 %, val loss 0.326, val acc 89.502 %, in 14.6 sec
+Epoch 16: train loss 0.162, train acc 93.885 %, val loss 0.328, val acc 89.508 %, in 14.5 sec
+Epoch 17: train loss 0.162, train acc 93.741 %, val loss 0.364, val acc 88.987 %, in 14.9 sec
+Epoch 18: train loss 0.151, train acc 94.190 %, val loss 0.389, val acc 88.252 %, in 14.8 sec
+Epoch 19: train loss 0.147, train acc 94.472 %, val loss 0.356, val acc 89.572 %, in 15.4 sec
+printing scores
+
+For Model 1
+Training Score 0.961 Validation Score 0.898
+
+For Model 2
+Training Score 0.966 Validation Score 0.904
+
+For Model 3
+Training Score 0.961 Validation Score 0.903
+
+Testing The Models...
+
+
+Testing the Model 1 with vanilla network
+Vanilla Model Loss
+test loss 0.409, test acc 88.870 %
+Logistic Model 1 Accuracy 89.080 %
+Logistic Model 2 Accuracy 89.540 %
+Logistic Model 3 Accuracy 89.620 %

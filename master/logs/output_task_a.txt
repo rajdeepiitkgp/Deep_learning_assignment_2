@@ -1,0 +1,119 @@
+Training The Models...
+
+Traing the Model 1
+The Model
+Sequential(
+  (0): Dense(None -> 512, Activation(relu))
+  (1): Dense(None -> 128, Activation(relu))
+  (2): Dense(None -> 64, Activation(relu))
+  (3): Dense(None -> 32, Activation(relu))
+  (4): Dense(None -> 16, Activation(relu))
+  (5): Dense(None -> 10, linear)
+)
+
+Fitting the model
+
+Epoch 0: train loss 1.182, train acc 54.306 %, val loss 0.708, val acc 72.991 %, in 11.3 sec
+Epoch 1: train loss 0.636, train acc 76.463 %, val loss 0.595, val acc 78.263 %, in 7.9 sec
+Epoch 2: train loss 0.544, train acc 79.813 %, val loss 0.540, val acc 79.011 %, in 5.8 sec
+Epoch 3: train loss 0.490, train acc 81.970 %, val loss 0.486, val acc 82.116 %, in 5.5 sec
+Epoch 4: train loss 0.444, train acc 84.337 %, val loss 0.443, val acc 84.455 %, in 4.8 sec
+Epoch 5: train loss 0.417, train acc 85.185 %, val loss 0.417, val acc 85.167 %, in 10.4 sec
+Epoch 6: train loss 0.387, train acc 86.392 %, val loss 0.409, val acc 85.724 %, in 11.6 sec
+Epoch 7: train loss 0.375, train acc 86.674 %, val loss 0.380, val acc 86.630 %, in 8.1 sec
+Epoch 8: train loss 0.346, train acc 87.654 %, val loss 0.388, val acc 86.382 %, in 6.2 sec
+Epoch 9: train loss 0.333, train acc 87.997 %, val loss 0.375, val acc 86.529 %, in 6.1 sec
+Epoch 10: train loss 0.318, train acc 88.575 %, val loss 0.402, val acc 85.764 %, in 6.1 sec
+Epoch 11: train loss 0.317, train acc 88.648 %, val loss 0.387, val acc 86.271 %, in 9.0 sec
+Epoch 12: train loss 0.301, train acc 89.110 %, val loss 0.377, val acc 86.281 %, in 8.9 sec
+Epoch 13: train loss 0.295, train acc 89.233 %, val loss 0.365, val acc 87.174 %, in 5.2 sec
+Epoch 14: train loss 0.283, train acc 89.486 %, val loss 0.346, val acc 87.750 %, in 6.5 sec
+Epoch 15: train loss 0.270, train acc 90.125 %, val loss 0.333, val acc 88.079 %, in 5.3 sec
+Epoch 16: train loss 0.263, train acc 90.343 %, val loss 0.350, val acc 87.748 %, in 5.6 sec
+Epoch 17: train loss 0.255, train acc 90.720 %, val loss 0.351, val acc 87.857 %, in 5.9 sec
+Epoch 18: train loss 0.248, train acc 90.833 %, val loss 0.333, val acc 88.266 %, in 8.3 sec
+Epoch 19: train loss 0.250, train acc 90.921 %, val loss 0.335, val acc 88.297 %, in 10.2 sec
+Epoch 20: train loss 0.234, train acc 91.321 %, val loss 0.340, val acc 88.377 %, in 6.3 sec
+Epoch 21: train loss 0.233, train acc 91.475 %, val loss 0.342, val acc 88.102 %, in 4.8 sec
+Epoch 22: train loss 0.221, train acc 91.806 %, val loss 0.416, val acc 86.385 %, in 10.2 sec
+Epoch 23: train loss 0.222, train acc 91.825 %, val loss 0.348, val acc 88.355 %, in 10.7 sec
+Epoch 24: train loss 0.214, train acc 92.112 %, val loss 0.348, val acc 88.310 %, in 11.1 sec
+Epoch 25: train loss 0.206, train acc 92.443 %, val loss 0.344, val acc 88.625 %, in 12.1 sec
+Epoch 26: train loss 0.201, train acc 92.623 %, val loss 0.377, val acc 88.148 %, in 11.9 sec
+Epoch 27: train loss 0.192, train acc 92.874 %, val loss 0.361, val acc 88.201 %, in 10.6 sec
+Epoch 28: train loss 0.189, train acc 93.071 %, val loss 0.434, val acc 86.751 %, in 11.4 sec
+Epoch 29: train loss 0.190, train acc 93.213 %, val loss 0.360, val acc 88.703 %, in 10.6 sec
+Epoch 30: train loss 0.181, train acc 93.480 %, val loss 0.359, val acc 88.800 %, in 10.4 sec
+Epoch 31: train loss 0.169, train acc 93.854 %, val loss 0.368, val acc 88.919 %, in 10.5 sec
+Epoch 32: train loss 0.173, train acc 93.684 %, val loss 0.420, val acc 87.180 %, in 10.6 sec
+Epoch 33: train loss 0.170, train acc 93.729 %, val loss 0.399, val acc 87.875 %, in 10.5 sec
+Epoch 34: train loss 0.166, train acc 93.968 %, val loss 0.381, val acc 88.274 %, in 10.5 sec
+Epoch 35: train loss 0.156, train acc 94.290 %, val loss 0.414, val acc 88.283 %, in 10.5 sec
+Epoch 36: train loss 0.147, train acc 94.643 %, val loss 0.377, val acc 89.181 %, in 10.5 sec
+Epoch 37: train loss 0.146, train acc 94.669 %, val loss 0.385, val acc 88.726 %, in 10.6 sec
+Epoch 38: train loss 0.143, train acc 94.768 %, val loss 0.433, val acc 88.208 %, in 10.5 sec
+Epoch 39: train loss 0.143, train acc 94.884 %, val loss 0.393, val acc 89.051 %, in 10.6 sec
+Finished Traing the Model 1
+Traing the Model 2
+The Model
+Sequential(
+  (0): Dense(None -> 1024, Activation(relu))
+  (1): Dense(None -> 512, Activation(relu))
+  (2): Dense(None -> 256, Activation(relu))
+  (3): Dense(None -> 10, linear)
+)
+
+Fitting the model
+
+Epoch 0: train loss 0.558, train acc 80.317 %, val loss 0.417, val acc 85.316 %, in 25.5 sec
+Epoch 1: train loss 0.377, train acc 86.387 %, val loss 0.366, val acc 86.933 %, in 26.3 sec
+Epoch 2: train loss 0.337, train acc 87.358 %, val loss 0.335, val acc 87.686 %, in 23.4 sec
+Epoch 3: train loss 0.299, train acc 88.833 %, val loss 0.361, val acc 86.927 %, in 27.2 sec
+Epoch 4: train loss 0.288, train acc 89.437 %, val loss 0.313, val acc 88.790 %, in 30.1 sec
+Epoch 5: train loss 0.263, train acc 90.069 %, val loss 0.324, val acc 88.125 %, in 29.8 sec
+Epoch 6: train loss 0.252, train acc 90.495 %, val loss 0.304, val acc 89.166 %, in 29.7 sec
+Epoch 7: train loss 0.238, train acc 91.011 %, val loss 0.316, val acc 88.871 %, in 30.0 sec
+Epoch 8: train loss 0.232, train acc 91.229 %, val loss 0.323, val acc 88.535 %, in 30.4 sec
+Epoch 9: train loss 0.220, train acc 91.752 %, val loss 0.333, val acc 88.641 %, in 31.2 sec
+Epoch 10: train loss 0.213, train acc 91.993 %, val loss 0.309, val acc 89.405 %, in 28.5 sec
+Epoch 11: train loss 0.203, train acc 92.455 %, val loss 0.342, val acc 88.754 %, in 28.8 sec
+Epoch 12: train loss 0.191, train acc 92.770 %, val loss 0.308, val acc 89.487 %, in 29.0 sec
+Epoch 13: train loss 0.182, train acc 93.123 %, val loss 0.330, val acc 89.400 %, in 29.1 sec
+Epoch 14: train loss 0.174, train acc 93.357 %, val loss 0.401, val acc 87.821 %, in 29.5 sec
+Epoch 15: train loss 0.169, train acc 93.466 %, val loss 0.374, val acc 88.346 %, in 29.7 sec
+Epoch 16: train loss 0.165, train acc 93.717 %, val loss 0.334, val acc 89.029 %, in 30.1 sec
+Epoch 17: train loss 0.156, train acc 94.100 %, val loss 0.375, val acc 88.632 %, in 29.9 sec
+Epoch 18: train loss 0.152, train acc 94.093 %, val loss 0.373, val acc 88.669 %, in 30.1 sec
+Epoch 19: train loss 0.140, train acc 94.619 %, val loss 0.397, val acc 88.521 %, in 30.0 sec
+Epoch 20: train loss 0.143, train acc 94.576 %, val loss 0.333, val acc 90.069 %, in 30.5 sec
+Epoch 21: train loss 0.133, train acc 94.867 %, val loss 0.365, val acc 89.433 %, in 30.4 sec
+Epoch 22: train loss 0.129, train acc 94.901 %, val loss 0.429, val acc 88.626 %, in 31.2 sec
+Epoch 23: train loss 0.123, train acc 95.166 %, val loss 0.403, val acc 88.928 %, in 32.0 sec
+Epoch 24: train loss 0.120, train acc 95.381 %, val loss 0.390, val acc 89.116 %, in 32.8 sec
+Epoch 25: train loss 0.115, train acc 95.587 %, val loss 0.383, val acc 89.616 %, in 33.6 sec
+Epoch 26: train loss 0.112, train acc 95.727 %, val loss 0.526, val acc 87.749 %, in 32.1 sec
+Epoch 27: train loss 0.111, train acc 95.623 %, val loss 0.412, val acc 89.694 %, in 31.9 sec
+Epoch 28: train loss 0.100, train acc 96.160 %, val loss 0.416, val acc 89.340 %, in 32.2 sec
+Epoch 29: train loss 0.099, train acc 96.139 %, val loss 0.444, val acc 89.174 %, in 32.2 sec
+Epoch 30: train loss 0.104, train acc 95.999 %, val loss 0.419, val acc 89.085 %, in 32.5 sec
+Epoch 31: train loss 0.091, train acc 96.487 %, val loss 0.456, val acc 88.858 %, in 34.3 sec
+Epoch 32: train loss 0.086, train acc 96.697 %, val loss 0.449, val acc 89.542 %, in 33.7 sec
+Epoch 33: train loss 0.093, train acc 96.430 %, val loss 0.480, val acc 88.649 %, in 34.2 sec
+Epoch 34: train loss 0.088, train acc 96.570 %, val loss 0.548, val acc 88.509 %, in 32.7 sec
+Epoch 35: train loss 0.084, train acc 96.681 %, val loss 0.469, val acc 89.678 %, in 20.7 sec
+Epoch 36: train loss 0.074, train acc 97.161 %, val loss 0.485, val acc 89.861 %, in 31.2 sec
+Epoch 37: train loss 0.072, train acc 97.334 %, val loss 0.458, val acc 89.732 %, in 26.2 sec
+Epoch 38: train loss 0.069, train acc 97.408 %, val loss 0.493, val acc 89.839 %, in 30.1 sec
+Epoch 39: train loss 0.074, train acc 97.098 %, val loss 0.528, val acc 89.000 %, in 27.6 sec
+Finished Traing the Model 2
+
+Plotting the Performance
+
+Testing The Models...
+
+
+Testing the Model 1
+test loss 0.416, test acc 88.457 %
+
+Testing the Model 2
+test loss 0.583, test acc 88.594 %

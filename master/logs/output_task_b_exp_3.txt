@@ -1,0 +1,175 @@
+Training The Models...
+
+Traing the Model 1 with Vanilla Network
+
+The Vanilla Model
+
+MLP(
+  (blk): Sequential(
+    (0): Dense(None -> 1024, Activation(relu))
+    (1): Dense(None -> 512, Activation(relu))
+    (2): Dense(None -> 256, Activation(relu))
+    (3): Dense(None -> 10, linear)
+  )
+)
+
+Fitting the model
+
+Epoch 0: train loss 0.572, train acc 79.723 %, val loss 0.415, val acc 85.555 %, in 26.5 sec
+Epoch 1: train loss 0.384, train acc 86.046 %, val loss 0.372, val acc 86.465 %, in 20.2 sec
+Epoch 2: train loss 0.329, train acc 87.817 %, val loss 0.341, val acc 87.353 %, in 16.1 sec
+Epoch 3: train loss 0.305, train acc 88.584 %, val loss 0.343, val acc 87.285 %, in 26.5 sec
+Epoch 4: train loss 0.288, train acc 89.164 %, val loss 0.395, val acc 85.535 %, in 28.4 sec
+Epoch 5: train loss 0.267, train acc 90.052 %, val loss 0.336, val acc 87.947 %, in 28.4 sec
+Epoch 6: train loss 0.260, train acc 90.365 %, val loss 0.329, val acc 88.550 %, in 28.1 sec
+Epoch 7: train loss 0.241, train acc 90.878 %, val loss 0.317, val acc 88.521 %, in 28.2 sec
+Epoch 8: train loss 0.232, train acc 91.184 %, val loss 0.332, val acc 88.188 %, in 29.2 sec
+Epoch 9: train loss 0.216, train acc 91.863 %, val loss 0.328, val acc 88.612 %, in 28.6 sec
+Epoch 10: train loss 0.211, train acc 92.012 %, val loss 0.325, val acc 88.904 %, in 28.9 sec
+Epoch 11: train loss 0.205, train acc 92.121 %, val loss 0.341, val acc 88.599 %, in 21.5 sec
+Epoch 12: train loss 0.198, train acc 92.384 %, val loss 0.322, val acc 89.080 %, in 28.9 sec
+Epoch 13: train loss 0.187, train acc 92.914 %, val loss 0.330, val acc 89.287 %, in 26.6 sec
+Epoch 14: train loss 0.180, train acc 93.045 %, val loss 0.339, val acc 89.303 %, in 29.8 sec
+Epoch 15: train loss 0.173, train acc 93.388 %, val loss 0.342, val acc 88.934 %, in 29.9 sec
+Epoch 16: train loss 0.163, train acc 93.802 %, val loss 0.336, val acc 89.469 %, in 30.5 sec
+Epoch 17: train loss 0.158, train acc 94.053 %, val loss 0.386, val acc 87.624 %, in 30.3 sec
+Epoch 18: train loss 0.157, train acc 94.022 %, val loss 0.353, val acc 89.135 %, in 30.2 sec
+Epoch 19: train loss 0.148, train acc 94.368 %, val loss 0.346, val acc 89.159 %, in 31.2 sec
+Finished Traing the Model 1
+
+Traing the Model 2 with Dropout = 0.1
+
+The Model with Dropout Probability 0.1 
+
+MLP_DROP(
+  (blk): Sequential(
+    (0): Dense(None -> 1024, Activation(relu))
+    (1): Dropout(p = 0.1, axes=())
+    (2): Dense(None -> 512, Activation(relu))
+    (3): Dropout(p = 0.1, axes=())
+    (4): Dense(None -> 256, Activation(relu))
+    (5): Dropout(p = 0.1, axes=())
+    (6): Dense(None -> 10, linear)
+  )
+)
+
+Fitting the model
+
+Epoch 0: train loss 0.588, train acc 78.781 %, val loss 0.417, val acc 85.073 %, in 28.8 sec
+Epoch 1: train loss 0.394, train acc 85.571 %, val loss 0.380, val acc 86.777 %, in 27.5 sec
+Epoch 2: train loss 0.352, train acc 86.868 %, val loss 0.404, val acc 84.781 %, in 26.0 sec
+Epoch 3: train loss 0.318, train acc 88.198 %, val loss 0.352, val acc 87.575 %, in 28.1 sec
+Epoch 4: train loss 0.302, train acc 88.788 %, val loss 0.319, val acc 88.260 %, in 30.1 sec
+Epoch 5: train loss 0.283, train acc 89.323 %, val loss 0.330, val acc 88.170 %, in 29.3 sec
+Epoch 6: train loss 0.275, train acc 89.685 %, val loss 0.314, val acc 88.699 %, in 29.4 sec
+Epoch 7: train loss 0.265, train acc 90.040 %, val loss 0.349, val acc 87.212 %, in 29.4 sec
+Epoch 8: train loss 0.251, train acc 90.634 %, val loss 0.324, val acc 88.376 %, in 19.4 sec
+Epoch 9: train loss 0.244, train acc 90.755 %, val loss 0.325, val acc 88.773 %, in 23.5 sec
+Epoch 10: train loss 0.237, train acc 91.070 %, val loss 0.307, val acc 88.940 %, in 21.1 sec
+Epoch 11: train loss 0.226, train acc 91.428 %, val loss 0.346, val acc 87.711 %, in 17.7 sec
+Epoch 12: train loss 0.217, train acc 91.731 %, val loss 0.309, val acc 89.266 %, in 18.3 sec
+Epoch 13: train loss 0.208, train acc 92.112 %, val loss 0.350, val acc 87.970 %, in 16.9 sec
+Epoch 14: train loss 0.207, train acc 92.294 %, val loss 0.337, val acc 88.765 %, in 16.6 sec
+Epoch 15: train loss 0.202, train acc 92.270 %, val loss 0.310, val acc 89.423 %, in 17.1 sec
+Epoch 16: train loss 0.191, train acc 92.675 %, val loss 0.352, val acc 88.384 %, in 17.0 sec
+Epoch 17: train loss 0.193, train acc 92.673 %, val loss 0.334, val acc 89.179 %, in 17.2 sec
+Epoch 18: train loss 0.182, train acc 93.073 %, val loss 0.332, val acc 89.258 %, in 18.8 sec
+Epoch 19: train loss 0.176, train acc 93.248 %, val loss 0.317, val acc 89.423 %, in 18.3 sec
+Finished Traing the Model 2
+
+Traing the Model 3 with Dropout = 0.4
+
+The Model with Dropout Probability 0.4 
+
+MLP_DROP(
+  (blk): Sequential(
+    (0): Dense(None -> 1024, Activation(relu))
+    (1): Dropout(p = 0.4, axes=())
+    (2): Dense(None -> 512, Activation(relu))
+    (3): Dropout(p = 0.4, axes=())
+    (4): Dense(None -> 256, Activation(relu))
+    (5): Dropout(p = 0.4, axes=())
+    (6): Dense(None -> 10, linear)
+  )
+)
+
+Fitting the model
+
+Epoch 0: train loss 0.700, train acc 74.455 %, val loss 0.495, val acc 81.942 %, in 16.5 sec
+Epoch 1: train loss 0.458, train acc 83.546 %, val loss 0.398, val acc 85.719 %, in 29.7 sec
+Epoch 2: train loss 0.412, train acc 85.175 %, val loss 0.367, val acc 86.698 %, in 24.9 sec
+Epoch 3: train loss 0.388, train acc 85.978 %, val loss 0.348, val acc 87.278 %, in 26.6 sec
+Epoch 4: train loss 0.367, train acc 86.539 %, val loss 0.348, val acc 87.088 %, in 28.2 sec
+Epoch 5: train loss 0.353, train acc 87.176 %, val loss 0.339, val acc 87.931 %, in 29.5 sec
+Epoch 6: train loss 0.341, train acc 87.379 %, val loss 0.332, val acc 87.756 %, in 30.8 sec
+Epoch 7: train loss 0.332, train acc 87.687 %, val loss 0.341, val acc 87.669 %, in 29.6 sec
+Epoch 8: train loss 0.322, train acc 88.061 %, val loss 0.333, val acc 87.785 %, in 29.7 sec
+Epoch 9: train loss 0.316, train acc 88.423 %, val loss 0.317, val acc 88.461 %, in 26.0 sec
+Epoch 10: train loss 0.307, train acc 88.712 %, val loss 0.320, val acc 88.169 %, in 18.7 sec
+Epoch 11: train loss 0.307, train acc 88.660 %, val loss 0.315, val acc 88.324 %, in 18.6 sec
+Epoch 12: train loss 0.299, train acc 88.944 %, val loss 0.304, val acc 89.269 %, in 18.5 sec
+Epoch 13: train loss 0.293, train acc 89.226 %, val loss 0.306, val acc 88.770 %, in 17.5 sec
+Epoch 14: train loss 0.289, train acc 89.370 %, val loss 0.316, val acc 88.962 %, in 17.1 sec
+Epoch 15: train loss 0.288, train acc 89.401 %, val loss 0.310, val acc 88.797 %, in 17.0 sec
+Epoch 16: train loss 0.281, train acc 89.427 %, val loss 0.305, val acc 88.729 %, in 17.3 sec
+Epoch 17: train loss 0.277, train acc 89.799 %, val loss 0.302, val acc 89.143 %, in 17.2 sec
+Epoch 18: train loss 0.274, train acc 89.875 %, val loss 0.308, val acc 89.266 %, in 17.3 sec
+Epoch 19: train loss 0.269, train acc 89.943 %, val loss 0.301, val acc 89.419 %, in 21.9 sec
+Finished Traing the Model 3
+
+Traing the Model 4 with Dropout = 0.6
+
+The Model with Dropout Probability 0.6 
+
+MLP_DROP(
+  (blk): Sequential(
+    (0): Dense(None -> 1024, Activation(relu))
+    (1): Dropout(p = 0.6, axes=())
+    (2): Dense(None -> 512, Activation(relu))
+    (3): Dropout(p = 0.6, axes=())
+    (4): Dense(None -> 256, Activation(relu))
+    (5): Dropout(p = 0.6, axes=())
+    (6): Dense(None -> 10, linear)
+  )
+)
+
+Fitting the model
+
+Epoch 0: train loss 0.909, train acc 66.288 %, val loss 0.514, val acc 80.848 %, in 19.9 sec
+Epoch 1: train loss 0.559, train acc 79.941 %, val loss 0.432, val acc 84.181 %, in 19.0 sec
+Epoch 2: train loss 0.502, train acc 82.000 %, val loss 0.414, val acc 85.004 %, in 17.0 sec
+Epoch 3: train loss 0.469, train acc 83.404 %, val loss 0.382, val acc 85.647 %, in 26.4 sec
+Epoch 4: train loss 0.448, train acc 84.022 %, val loss 0.384, val acc 86.273 %, in 31.2 sec
+Epoch 5: train loss 0.436, train acc 84.387 %, val loss 0.367, val acc 86.291 %, in 28.3 sec
+Epoch 6: train loss 0.426, train acc 84.893 %, val loss 0.361, val acc 86.838 %, in 30.1 sec
+Epoch 7: train loss 0.411, train acc 85.350 %, val loss 0.354, val acc 87.237 %, in 33.7 sec
+Epoch 8: train loss 0.406, train acc 85.483 %, val loss 0.354, val acc 87.019 %, in 29.7 sec
+Epoch 9: train loss 0.397, train acc 85.786 %, val loss 0.348, val acc 87.309 %, in 34.6 sec
+Epoch 10: train loss 0.389, train acc 86.001 %, val loss 0.343, val acc 87.510 %, in 33.1 sec
+Epoch 11: train loss 0.385, train acc 86.288 %, val loss 0.339, val acc 87.875 %, in 33.4 sec
+Epoch 12: train loss 0.383, train acc 86.198 %, val loss 0.334, val acc 87.960 %, in 34.2 sec
+Epoch 13: train loss 0.384, train acc 86.508 %, val loss 0.342, val acc 87.498 %, in 35.1 sec
+Epoch 14: train loss 0.383, train acc 86.281 %, val loss 0.336, val acc 88.128 %, in 30.8 sec
+Epoch 15: train loss 0.362, train acc 86.785 %, val loss 0.328, val acc 88.097 %, in 34.4 sec
+Epoch 16: train loss 0.363, train acc 87.015 %, val loss 0.329, val acc 88.124 %, in 36.7 sec
+Epoch 17: train loss 0.360, train acc 87.133 %, val loss 0.335, val acc 88.063 %, in 37.2 sec
+Epoch 18: train loss 0.356, train acc 87.185 %, val loss 0.322, val acc 88.413 %, in 37.9 sec
+Epoch 19: train loss 0.350, train acc 87.481 %, val loss 0.327, val acc 87.893 %, in 37.3 sec
+Finished Traing the Model 4
+
+Plotting the Performance
+
+Testing The Models...
+
+
+Testing the Model 1 with Vanilla Network
+test loss 0.391, test acc 88.594 %
+
+Testing the Model 2 with Dropout = 0.1
+test loss 0.344, test acc 88.955 %
+
+Testing the Model 3 with Dropout = 0.4
+test loss 0.321, test acc 88.564 %
+
+Testing the Model 4 with Dropout = 0.6
+test loss 0.348, test acc 87.217 %
